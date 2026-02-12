@@ -1,0 +1,87 @@
+/* Design System - Awwwards / Y Innovation Lab inspired */
+
+:root {
+  /* Colors - Editorial, high contrast */
+  --color-bg: #fafafa;
+  --color-bg-alt: #0a0a0a;
+  --color-text: #0a0a0a;
+  --color-text-muted: rgba(10, 10, 10, 0.6);
+  --color-text-subtle: rgba(10, 10, 10, 0.4);
+  --color-accent: rgba(0, 0, 0, 0.04);
+
+  /* Primary - Toss Blue */
+  --color-primary: #3182F6;
+  --color-primary-light: #5094F6;
+  --color-primary-dark: #1B64DA;
+  --color-primary-bg: rgba(49, 130, 246, 0.08);
+
+  /* Border */
+  --color-border: rgba(10, 10, 10, 0.08);
+  --color-border-light: rgba(10, 10, 10, 0.04);
+
+  /* Surface */
+  --color-surface: #ffffff;
+  --color-surface-light: rgba(10, 10, 10, 0.02);
+
+  /* Semantic */
+  --color-accent-success-text: #0a7c42;
+  --color-accent-warning-text: #b45309;
+
+  /* Spacing - Generous, editorial */
+  --space-xs: 8px;
+  --space-sm: 16px;
+  --space-md: 24px;
+  --space-lg: 32px;
+  --space-xl: 48px;
+  --space-2xl: 64px;
+  --space-3xl: 96px;
+  --space-4xl: 128px;
+  --space-5xl: 160px;
+  --space-6xl: 200px;
+
+  /* Typography - Large, confident */
+  --font-size-xs: 11px;
+  --font-size-sm: 13px;
+  --font-size-base: 16px;
+  --font-size-lg: 18px;
+  --font-size-xl: 20px;
+  --font-size-2xl: 28px;
+  --font-size-3xl: 36px;
+  --font-size-4xl: 48px;
+  --font-size-5xl: 64px;
+  --font-size-6xl: clamp(64px, 10vw, 120px);
+  --font-size-hero: clamp(56px, 10vw, 140px);
+
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  --line-height-tight: 1.05;
+  --line-height-normal: 1.5;
+  --line-height-relaxed: 1.6;
+  --line-height-loose: 1.75;
+
+  --letter-spacing-tight: -0.03em;
+  --letter-spacing-normal: 0;
+  --letter-spacing-wide: 0.02em;
+  --letter-spacing-wider: 0.08em;
+
+  /* Border Radius - Minimal */
+  --radius-sm: 0;
+  --radius-md: 0;
+  --radius-lg: 0;
+
+  /* Transitions - GSAP handles most; CSS fallback */
+  --transition-fast: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-base: 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* Z-index */
+  --z-base: 1;
+  --z-cursor: 9999;
+  --z-dropdown: 10;
+  --z-sticky: 100;
+  --z-overlay: 200;
+  --z-modal: 300;
+}
